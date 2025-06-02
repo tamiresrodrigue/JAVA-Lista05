@@ -6,15 +6,12 @@ public class Ex06 {
 
         System.out.print("Digite um número inteiro: ");
         int numero = scanner.nextInt();
-
-        // Verifica paridade
         if (numero % 2 == 0) {
             System.out.println(numero + " é par.");
         } else {
             System.out.println(numero + " é ímpar.");
         }
 
-        // Verifica positividade
         if (numero > 0) {
             System.out.println(numero + " é positivo.");
         } else if (numero < 0) {
